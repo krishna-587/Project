@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url('https://assets-global.website-files.com/64949e4863d96e26a1da8386/64b9451865a683fd39bccfa1_5f6e93d250a6d04f4eae9f02_Backgrounds-WFU-thumbnail-(size).jpeg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+h1{
+    text-align: center;
+    
+}
+#note{
+    margin-top: 30px;
+}
+.container{
+    height: 600px;
+    width: 400px;
+   
+    /* border: 2px solid black; */
+    border-radius: 20px;
+    box-shadow: 0px 16px 48px 0px rgba(0, 0, 0, 0.176);
+    margin-top: 50px;
+   
+}
+
+
+#title-box{
+    margin-top: 50px;
+    margin-left: 58px;
+    /* text-align: center; */
+    height: 150px;
+    width: 300px;
+    border: 0;
+    text-decoration: none;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 10px;
+    overflow: auto;
+}
+#title{
+    box-sizing: border-box;
+    outline: none;
+    margin: 10px;
+   
+}
+
+#title-box::-webkit-scrollbar {
+    width: 8px;
+}
+#title-box::-webkit-scrollbar-thumb {
+    background-color: #8213ae;
+    border-radius: 6px;
+}
+
+
+#add-btn{
+    margin-top: 20px;
+    margin-left: 150px;
+
+    /* align-items: center; */
+  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 20px;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 19px 24px;
+  text-decoration: none;
+  cursor: pointer;
+    
+}
+
+li{
+    list-style-type: none;
+    box-sizing: border-box;
+    
+}
+
+#list{
+    /* border: 2px solid black; */
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 350px;
+    box-sizing: border-box;
+    max-width: 350px;
+    overflow-y: auto;
+    height: 170px;
+    
+}
+#list li{
+    font-size: 20px;
+    list-style-type: disc;
+    
+}
+#list::-webkit-scrollbar {
+    width: 12px;
+}
+#list::-webkit-scrollbar-thumb{
+    background-color: #1368ae;
+    border-radius: 6px;
+
+}
+
+
+.active-title {
+    border: 2px solid #1368ae; /* Change the border color for active state */
+    box-shadow: 0 0 20px rgba(35, 2, 51, 0.352); /* Optional box shadow for active state */
+}
+
